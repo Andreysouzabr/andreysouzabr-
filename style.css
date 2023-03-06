@@ -12,6 +12,9 @@
     justify-content: left  ;
     align-items: flex-end;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 .cabeçalho-imagem{
     width: 10%;
@@ -55,4 +58,25 @@ color: black;
 
 .div1{
     width: 50%;
+}
+.davi{
+width: 10%;
+justify-content: space-between;
+}
+
+.imagem{
+    width: 20px;
+    padding: 8px;
+}
+.davi-texto{
+    margin: 50px;
+}
+.davi-imagem{
+  text-align: center;
+
+}
+
+.estudantes-titulo{
+    text-align: center;
+    padding: 20px;
 }
