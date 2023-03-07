@@ -29,7 +29,8 @@ body{
 
 .texto1{
     flex-direction: row-reverse;
-    display: flex
+    display: flex;
+    padding: 1px;
        }
 
 .Titulo{
@@ -53,6 +54,7 @@ body{
 .link{
 font-size: 25px;
 color: black;
+padding: 60px;
 
 }
 
@@ -60,16 +62,16 @@ color: black;
     width: 50%;
 }
 .davi{
-width: 10%;
+width: 90px;
 justify-content: space-between;
 }
 
 .imagem{
     width: 20px;
-    padding: 8px;
+    padding: 5px;
 }
 .davi-texto{
-    margin: 50px;
+    margin: 10px;
 }
 .davi-imagem{
   text-align: center;
@@ -79,4 +81,18 @@ justify-content: space-between;
 .estudantes-titulo{
     text-align: center;
     padding: 20px;
+}
+
+.todos-estudantes{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: black;
+    width: 120px;
+
+}
+.rodape1{
+    background-color: rgb(24, 22, 22);
+   
 }
